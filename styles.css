@@ -1,0 +1,172 @@
+@import url(shared_style.css);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(27, 25, 25);
+    color: white;
+    justify-content:flex-start;
+    padding: 13px;
+    position:relative;
+}
+
+.addbox{
+    margin-left: 5px;
+}
+.addbox .material-symbols-outlined {
+    margin-right: 10px; 
+}
+
+.search-input {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(59, 58, 56);
+}
+
+
+.col-container {
+    flex:0.3;
+    background-color: rgb(75, 46, 222);
+    justify-content: space-between;
+    
+}
+
+
+.settings {
+    align-self: flex-start; 
+    justify-content: flex-end;
+  
+    
+}
+
+ul {
+    list-style-type: none;
+    padding:0
+}
+li{
+    margin: 3px;
+    padding: 3px;
+    color: white;
+    white-space: nowrap;
+}
+.col-container .material-symbols-outlined {
+    margin-right: 5px; 
+}
+.row-container{
+    flex: 1;
+    align-content: stretch;
+    background-color: rgb(63, 65, 69);
+    color: white;
+}
+
+.meeting {
+   flex-direction: row; 
+}
+
+
+.meeting li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.meeting .material-symbols-outlined {
+    width: 45px;
+    height: 45px;
+    background-color: #4aa38e;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.meeting .material-symbols-outlined svg {
+    width: 24px;
+    height: 24px;
+    fill: #333;
+}
+.inmeetingtime {
+    border: 1px transparent solid;
+    font-size: 13px;
+    background-color: rgb(81, 83, 81);
+    border-radius: 15px;
+    font-size: 13px;
+    
+}
+
+.inmeetingtime .logo{
+    margin-right: 10px;
+}
+.inmeetingtime .logo button {
+    height: 35px;
+    border-radius: 50%;
+    background-color: #aab4b1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.meetingtime .material-symbols-outlined {
+    height: 35px;
+    background-color: #ebeeed;
+    color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.row-container div h3 {
+    margin-bottom: 5px; 
+}
+
+.row-container div p {
+    margin-top: 5px; 
+}
+.join-button {
+    margin-left: 850px; 
+    
+}
+
+.join-button button {
+    background-color: #aab4b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 0;
+}
+.timing{
+    margin-left: 650px; 
+}
+#datepicker{
+    background-color: rgb(142, 143, 143);
+    border: 1px solid #f9f6f6;
+    border-radius: 5px;
+    
+}
+
+
+.calender_button button{
+    background-color:rgb(142, 143, 143);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.meeting-recap{
+   margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+       flex-direction: column;
+    }
+
+    .col-container {
+        flex: 1;
+    }
+}
+
+ 

@@ -1,0 +1,39 @@
+/* Common styles */
+.flexdisplay {
+    display: flex;
+}
+ 
+.flexcolumn {
+    flex-direction: column;
+}
+ 
+.align-center {
+    align-items: center;
+}
+ 
+.justify-center {
+    justify-content: center;
+}
+ 
+.flexw{
+    flex-wrap: wrap;
+}
+.pd10{
+    padding: 10px;
+}
+ 
+.pd20{
+    padding: 20px;
+}
+.width-100 {
+    width: 100%;
+}
+.pd510{
+    padding: 5px 10px;
+}
+.wd100{
+    width: 100%;
+}
+.ht{
+    height: 100%;
+}
